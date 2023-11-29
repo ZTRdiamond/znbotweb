@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[546],{8705:e=>{e.exports=JSON.parse('[{"label":"bruh","permalink":"/znbotweb/blog/tags/bruh","count":1}]')}}]);

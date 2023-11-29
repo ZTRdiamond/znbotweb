@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/znbotweb/blog/first-blog-post"}]}')}}]);
