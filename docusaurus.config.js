@@ -10,7 +10,7 @@ const projectName = "znbotweb";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Zanixon Wabot",
-  tagline: "Whatsapp bot gratis dengan banyak fitur",
+  tagline: "Whatsapp bot gratis dengan banyak fitur seperti downloader, AI, image generator dan masih banyak lagi...",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
@@ -70,8 +70,13 @@ const config = {
           {
             href: `https://github.com/${organizationName}/zanixon-wabot`,
             label: "GitHub",
-            position: "right",
+            position: "left",
           },
+          {
+            href: `https://trakteer.id/zanixongroup`,
+            label: "Support Kami",
+            position: "left"
+          }
         ],
       },
       footer: {
