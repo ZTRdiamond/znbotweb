@@ -8,3 +8,7 @@ sidebar_position: 1
 
 Selamat datang di website zanixon wabot, Website ini digunakan untuk sarana informasi mengenai bot ini.
 Website ini developer buat untuk tujuan dokumentasi bot, Agar lebih mudah menyampaikan sesuatu.
+
+:::info Ingfo kang
+Akumah masih pemula😔☝️
+:::
