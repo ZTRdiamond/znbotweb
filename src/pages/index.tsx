@@ -30,8 +30,11 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Zanixon Wabot`}
+      title={`Home`}
       description="Whatsapp bot gratis dengan banyak fitur">
+      <main>
+        <img src="https://telegra.ph/file/a701bacf3d97a5b675385.png" alt="Zanixon Wabot Banner" style={{marginBottom: "-10px"}} />
+      </main>
       <HomepageHeader />
     </Layout>
   );

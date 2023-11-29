@@ -15,7 +15,7 @@ const config = {
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
-  favicon: "img/favicon.ico",
+  favicon: "img/zn-logo.png",
   // GitHub Pages adds a trailing slash by default that I don't want
   trailingSlash: false,
 
@@ -57,14 +57,14 @@ const config = {
         title: "Zanixon Wabot",
         logo: {
           alt: "zn-logo",
-          src: "img/logo.svg",
+          src: "img/zn-logo-nobg.png",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Dokumentasi",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
