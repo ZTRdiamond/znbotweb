@@ -9,8 +9,8 @@ const projectName = "znbotweb";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Zanixon Wabot",
+  tagline: "Whatsapp bot gratis dengan banyak fitur",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "id",
+    locales: ["id"],
   },
 
   presets: [
@@ -54,9 +54,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Zanixon Wabot",
         logo: {
-          alt: "My Site Logo",
+          alt: "zn-logo",
           src: "img/logo.svg",
         },
         items: [
@@ -68,7 +68,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: `https://github.com/${organizationName}/${projectName}`,
+            href: `https://github.com/${organizationName}/zanixon-wabot`,
             label: "GitHub",
             position: "right",
           },
@@ -78,7 +78,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Dokumentasi",
             items: [
               {
                 label: "Tutorial",
@@ -87,24 +87,20 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "Komunitas",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Grup Whatsapp",
+                href: "https://chat.whatsapp.com/D5d0UUnYZu5BmaE70gKS7l",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Channel Whatsapp",
+                href: "https://whatsapp.com/channel/0029VaFOXjs7tkj2OGoypH1V",
               },
             ],
           },
           {
-            title: "More",
+            title: "Lainnya",
             items: [
               {
                 label: "Blog",
@@ -112,12 +108,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: `https://github.com/${organizationName}/${projectName}`,
+                href: `https://github.com/${organizationName}/zanixon-wabot`,
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Zanixon Wabot, All right reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
