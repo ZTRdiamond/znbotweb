@@ -24,7 +24,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            to="https://wa.me/62856971039025?text=.menu"
+            to="https://wa.me/62856971039022?text=.menu"
             style={{ backgroundColor: "#5FD6FF", borderRadius: "8px", marginRight: "1rem" }}
           >
             Whatsapp
