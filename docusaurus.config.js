@@ -11,7 +11,7 @@ const projectName = "znbotweb";
 const config = {
   title: "Zanixon Wabot",
   tagline: "Whatsapp bot gratis dengan banyak fitur seperti downloader, AI, image generator dan masih banyak lagi...",
-  url: `https://docs.zanixon.xyz`,
+  url: `https://ztrdiamond.github.io`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
