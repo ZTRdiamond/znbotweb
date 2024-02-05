@@ -11,8 +11,8 @@ const projectName = "znbotweb";
 const config = {
   title: "Zanixon Wabot",
   tagline: "Whatsapp bot gratis dengan banyak fitur seperti downloader, AI, image generator dan masih banyak lagi...",
-  url: `https://ztrdiamond.github.io`,
-  baseUrl: `/znbotweb/`,
+  url: `https://wabot.zanixon.xyz`,
+  baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/zn-logo.png",
@@ -40,9 +40,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js")
         },
-        blog: {
-          showReadingTime: true
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -66,7 +63,6 @@ const config = {
             position: "left",
             label: "Dokumentasi",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: `https://github.com/${organizationName}/zanixon-wabot`,
             label: "GitHub",
@@ -107,10 +103,6 @@ const config = {
           {
             title: "Lainnya",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "GitHub",
                 href: `https://github.com/${organizationName}/zanixon-wabot`,
